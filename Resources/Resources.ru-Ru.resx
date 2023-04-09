@@ -1,0 +1,10 @@
+﻿<xml version="1.0" encoding="UTF8">
+  <root>
+    <data name="WellcomeMessage" xml:space="default">
+      <value>Здравствуйте. Добро пожаловать на наш сайт!</value>
+    </data>
+    <data name="AboutMessage" xml:space="default">
+      <value>Этот проект основан на ядре Asp Net MVC.</value>
+    </data>
+  </root>
+</xml>

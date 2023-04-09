@@ -1,0 +1,10 @@
+﻿<xml version="1.0" encoding="UTF8">
+  <root>
+    <data name="WellcomeMessage" xml:space="default">
+      <value>Hello, welcome to our site!!!</value>
+    </data>
+    <data name="AboutMessage" xml:space="default">
+      <value>This project is based on Asp Net core MVC</value>
+    </data>
+  </root>
+</xml>
