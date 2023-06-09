@@ -1,0 +1,1 @@
+﻿ORM: Dapper, Database:MSSQL, Platrofm: Asp.NET CORE
