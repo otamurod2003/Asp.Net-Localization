@@ -1,1 +1,1 @@
-# Localization
+# Localization && Globalization
