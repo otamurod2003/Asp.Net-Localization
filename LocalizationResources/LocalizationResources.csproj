@@ -7,6 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="Resources\Index.ru-RU.resx" />
+    <EmbeddedResource Remove="Resources\Index.uz-UZ.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Resources\Index.ru-RU.resx" />
+    <None Include="Resources\Index.uz-UZ.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
     <PackageReference Include="Microsoft.Extensions.Localization" Version="2.2.0" />
   </ItemGroup>
 

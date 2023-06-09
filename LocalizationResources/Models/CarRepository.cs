@@ -6,6 +6,13 @@ namespace LocalizationResources.Models
     public class CarRepository : ICarRepository
     {
         string? connectionString;
+        public CarRepository(string? connectionString)
+        {
+         
+            this.connectionString = connectionString;
+
+        }
+ 
         public Car Create(Car car)
         {
             using (IDbConnection db = new SqlConnection(connectionString))
