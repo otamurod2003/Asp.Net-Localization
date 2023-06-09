@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PIAMZB2iWcb32FWsSXPLYJKrZSsVC7li0/oprDwuHYDeCWQLGKiWoGMBICxZ1L6D0y6LctiHOw1Qt2aq2OOmdQ==",
+  "dgSpecHash": "kNW9p5KO1pKnLz28A+wE5TNeBkmNR4ztxoZKTvcjXchxYFJqZZc523oH662tQiRn70Ze4WJSes3w2fcG1xaoYg==",
   "success": true,
-  "projectFilePath": "D:\\myPractic\\Localization\\Localization.csproj",
+  "projectFilePath": "D:\\myPractic\\Localization\\LocalizationResources.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

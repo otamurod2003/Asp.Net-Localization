@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\myPractic\\Localization\\Localization.csproj",
-      "projectName": "Localization",
-      "projectPath": "D:\\myPractic\\Localization\\Localization.csproj",
+      "projectUniqueName": "D:\\myPractic\\Localization\\LocalizationResources.csproj",
+      "projectName": "LocalizationResources",
+      "projectPath": "D:\\myPractic\\Localization\\LocalizationResources.csproj",
       "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
       "outputPath": "D:\\myPractic\\Localization\\obj\\",
       "projectStyle": "PackageReference",
@@ -28,8 +28,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "C:\\Users\\Администратор\\.nuget\\packages": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://www.nuget.org": {}
       },
       "frameworks": {
         "net7.0": {
@@ -65,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
