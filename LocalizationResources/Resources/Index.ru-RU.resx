@@ -117,7 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AddNewCar" xml:space="preserve">
+    <value>Добавить новую машину</value>
+  </data>
   <data name="CarList" xml:space="preserve">
     <value>Список всех автомобилей</value>
+  </data>
+  <data name="CarName" xml:space="preserve">
+    <value>Название автомобиля</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Обновлять</value>
   </data>
 </root>

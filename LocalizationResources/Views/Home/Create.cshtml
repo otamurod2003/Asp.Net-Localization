@@ -1,0 +1,26 @@
+﻿@model Car
+@inject IViewLocalizer Localizer
+@{ 
+    ViewBag.Title = Localizer["CreatePageTitle"];
+}
+    <div>
+        <h2 class="text-center">@Localizer["CreatePageTitle"]</h2>
+    </div>
+<div>
+    <form a method="post" asp-controller="home" asp-action="create">
+        <div class="form-group">
+            <label for="@Model.CarName" asp-for="@Model.CarName"></label>
+            <input asp-for="@Model.CarName" class="form-control" name="@Model.CarName" />
+            <span asp-validation-for="@Model.CarName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Model.Price" asp-for="@Model.Price"></label>
+            <input asp-for="@Model.Price" class="form-control" name="Model.Price" />
+            <span asp-validation-for="@Model.Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">@Localizer["Create"]</button>
+            <a asp-controller="home" asp-action="index">@Localizer["Cancel"]</a>
+        </div>
+    </form>
+</div>
