@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Resources\Index.ru-RU.resx" />
-    <None Include="Resources\Index.uz-UZ.resx">
+    <None Include="Resources\Views\Home\Index.ru-RU.resx" />
+    <None Include="Resources\Views\Home\Index.uz-UZ.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
     </None>
   </ItemGroup>

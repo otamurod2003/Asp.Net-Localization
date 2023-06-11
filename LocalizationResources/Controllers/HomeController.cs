@@ -1,5 +1,6 @@
 ﻿using LocalizationResources.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace LocalizationResources.Controllers
 {
@@ -19,7 +20,8 @@ namespace LocalizationResources.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            Car car = new Car();
+            return View(car);
         }
         [HttpPost]
         public IActionResult Create(Car car)
@@ -27,9 +29,11 @@ namespace LocalizationResources.Controllers
             if (ModelState.IsValid)
             {
                 _carRepo.Create(car);
+
                 return RedirectToAction("Index");
             }
             return View();
+            
         }
         [HttpGet]
         public IActionResult Details(int id)
@@ -54,15 +58,16 @@ namespace LocalizationResources.Controllers
         [HttpPost]
         public IActionResult Update(Car car)
         {
-            if (!ModelState.IsValid)
-            {
-              _carRepo.Update(car);
-                return View(car);
-            }
-            else
-            {
-                return View();
-            }
+
+            _carRepo.Update(car);
+            return RedirectToAction("Index");
+        }
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var car = _carRepo.GetCarById(id);
+            _carRepo.Delete(car.Id);
+            return RedirectToAction("Index");
         }
     }
 }

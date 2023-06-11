@@ -13,13 +13,13 @@ namespace LocalizationResources.Models
 
         }
  
-        public Car Create(Car car)
+        public void Create(Car car)
         {
             using (IDbConnection db = new SqlConnection(connectionString))
             {
                 string sqlQuery = "INSERT INTO Cars(CarName,Price) VALUES(@CarName,@Price)";
                 db.Execute(sqlQuery, car);
-                return car;
+                
             }
         }
 
